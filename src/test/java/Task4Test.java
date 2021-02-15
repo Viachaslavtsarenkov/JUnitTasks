@@ -22,7 +22,7 @@ public class Task4Test {
     }
 
     @Parameterized.Parameters
-    public static Collection<Object[]> task4Parameters() {
+    public static Collection<Object[]> evenValues() {
         return Arrays.asList(new Object[][] {
             {1, 2, 3, 4, true },
             {1, 33, 44, 5, false},

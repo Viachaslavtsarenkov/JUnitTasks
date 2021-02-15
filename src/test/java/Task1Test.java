@@ -19,7 +19,7 @@ public class Task1Test {
     }
 
     @Parameters
-    public static Collection<Object[]> squareLastDigit() {
+    public static Collection<Object[]> squaresOfLastDigit() {
         return Arrays.asList(new Object[][]{
                 {23, 9},
                 {144, 6},
@@ -28,7 +28,7 @@ public class Task1Test {
     }
 
     @Test
-    public void lastDigitTest() {
+    public void squareOfLastDigitTest() {
         int expected = square;
         int actual = Task1.getLastDigitOfSquare(number);
         Assert.assertEquals(expected,actual);

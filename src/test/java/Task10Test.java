@@ -16,7 +16,7 @@ public class Task10Test {
     }
 
     @Parameterized.Parameters
-    public static Collection<Object[]> task10Parameters() {
+    public static Collection<Object[]> radiusValues() {
         return Arrays.asList(new Object[][] {
                 {1},
                 {2},

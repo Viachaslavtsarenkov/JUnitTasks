@@ -20,7 +20,7 @@ public class Task5Test {
     }
 
     @Parameters
-    public static Collection<Object[]> Task5Parameters() {
+    public static Collection<Object[]> perfectNumbers() {
         return Arrays.asList(new Object[][]{
                 {6, true},
                 {28, true},

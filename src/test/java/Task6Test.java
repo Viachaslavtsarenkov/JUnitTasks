@@ -23,7 +23,7 @@ public class Task6Test {
     }
 
     @Parameters
-    public static Collection<Object[]> Task6Parameters() {
+    public static Collection<Object[]> secondsParameters() {
         return Arrays.asList(new Object[][] {
                 {7234, 2, 0, 34},
                 {3725, 1, 2, 5},

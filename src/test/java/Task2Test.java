@@ -16,7 +16,7 @@ public class Task2Test {
     private int amountDays;
     private boolean leap;
 
-    public Task2Test( int year, int month, int amountDays, boolean leap) {
+    public Task2Test(int year, int month, int amountDays, boolean leap) {
         this.month = month;
         this.year = year;
         this.amountDays = amountDays;
@@ -31,7 +31,7 @@ public class Task2Test {
     }
 
     @Test
-    public void getAmountOfDaysTest() {
+    public void amountOfDaysTest() {
         int expected = amountDays;
         int actual = Task2.getAmountDays(month, year);
         Assert.assertEquals(expected, actual, 7);

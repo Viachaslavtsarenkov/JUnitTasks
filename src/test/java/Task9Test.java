@@ -21,7 +21,7 @@ public class Task9Test {
     }
 
     @Parameterized.Parameters
-    public static Collection<Object[]> task9Parameters() {
+    public static Collection<Object[]> intervalTanValues() {
         ArrayList<Double> testTanValues1 = new ArrayList<Double>();
         Collections.addAll(testTanValues1,1.5574077246549023, 14.101419947171719, -2.185039863261519);
         ArrayList<Double> testTanValues2 = new ArrayList<Double>();
